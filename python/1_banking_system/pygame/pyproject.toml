@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "banking-game"
+version = "0.1.0"
+description = ""
+authors = ["CodinEric"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygame = "^2.1.2"
+scipy = "^1.9.3"
+
+[tool.poetry.dev-dependencies]
+pdbpp = "^0.10.3"
+
+[tool.poetry.group.dev.dependencies]
+bandit = "^1.7.4"
+flake8 = "^6.0.0"
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 120
